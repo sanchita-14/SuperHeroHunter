@@ -192,6 +192,6 @@ function  deleteHero(arr,heroID){
 function currSelectedHero(heroID){
     myLocalStorage.setItem('showSuperHero',heroID);
     document.getElementById("searchHero").value = '';
-    window.location.assign("heroInfo.html");
+    window.location.assign("HeroInfo.html");
 
 }
